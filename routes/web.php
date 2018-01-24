@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/*
+Route::get('/','ExemploController@pagInicial');
+*/
 
 /*
 
@@ -51,7 +54,7 @@ Route::get('/nome', function () {
 
 */
 
-
+/*
 Route::get('/array', function () {
 	$tarefas=[
 		'Estudar',
@@ -60,3 +63,4 @@ Route::get('/array', function () {
 	];
     return view('exemplos.passarArray')->with('tarefas',$tarefas);
 });
+*/
