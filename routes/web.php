@@ -35,4 +35,10 @@ Route::get('servicos2/{id}/{telefone}', function ($id,$telefone) {
 Gostou?<a href='".url('contato')."'> Esse é o telefone dele: ".$telefone.".</a>";
 });
 
+
+
+Route::get('/nome', function () {
+    return view('exemplos.passarNome')->with('name','Trainee');
+});
+
 */
