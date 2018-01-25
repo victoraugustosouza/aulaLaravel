@@ -1,11 +1,11 @@
 <?php
 
-/*
+
 
 Route::get('/', function () {
     return view('welcome');
 });
-*/
+
 
 /*
 Route::get('/', function () {
@@ -13,6 +13,7 @@ Route::get('/', function () {
 });
 */
 
+/*
 
 Route::get('/','ExemploController@pagInicial');
 
@@ -29,6 +30,8 @@ Route::get('servicos', function () {
 
 
 */
+
+/*
 
 Route::get('servicos1/{id}', function ($id) {
     return "O serviço do ".$id." é muito bom.<br><br>
@@ -65,6 +68,8 @@ Route::get('/array', function () {
     return view('exemplos.passarArray')->with('tarefas',$tarefas);
 });
 
+/*
+
 Route::get('/postRequest','ExemploController@exibir')->name('exemplo_exibir');
 
 Route::post('postRequest','ExemploController@add')->name('exemplo');
@@ -72,3 +77,5 @@ Route::post('postRequest','ExemploController@add')->name('exemplo');
 Route::get('/blog','ExemploController@blog')->name('exemplo_blog');
 
 Route::get('/blogsection','ExemploController@section')->name('exemplo_blogsection');
+
+/*
