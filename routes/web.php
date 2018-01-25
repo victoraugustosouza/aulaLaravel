@@ -78,4 +78,9 @@ Route::get('/blog','ExemploController@blog')->name('exemplo_blog');
 
 Route::get('/blogsection','ExemploController@section')->name('exemplo_blogsection');
 
-/*
+*/
+
+
+Route::get('/exercicio', function () {
+    return view('exemplos.retro');
+});
