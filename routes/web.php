@@ -31,7 +31,7 @@ Route::get('servicos', function () {
 
 */
 
-/*
+
 
 Route::get('servicos1/{id}', function ($id) {
     return "O serviço do ".$id." é muito bom.<br><br>
@@ -68,17 +68,36 @@ Route::get('/array', function () {
     return view('exemplos.passarArray')->with('tarefas',$tarefas);
 });
 
-/*
+
 
 Route::get('/postRequest','ExemploController@exibir')->name('exemplo_exibir');
 
-Route::post('postRequest','ExemploController@add')->name('exemplo');
+Route::post('postRequest','CadastroController@store')->name('exemplo');
+
+Route::get('postErase/{id}','CadastroController@destroy')->name('destroy_cadastro');
+
+
+Route::get('todosCadastros/','CadastroController@index')->name('todos_cadastros');
+
+Route::get('unicoCadastro/{id}','CadastroController@show')->name('unico_cadastro');
+
+
+
+
+
+
+
+
+
+
+
+
 
 Route::get('/blog','ExemploController@blog')->name('exemplo_blog');
 
 Route::get('/blogsection','ExemploController@section')->name('exemplo_blogsection');
 
-*/
+
 
 
 Route::get('/exercicio', function () {

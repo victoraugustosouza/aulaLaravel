@@ -20,6 +20,7 @@
 				  <br><br>
 				  <input type="submit" value="Submit">
 				</form> 
-
+				
+ 				@include('exemplos.help')
 		</body>
 	</html>
