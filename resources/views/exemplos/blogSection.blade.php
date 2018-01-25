@@ -1,4 +1,4 @@
- <!--extends('exemplos.blogPage') -->  <!-- extende o template -->
+<!--extends('exemplos.blogPage') -->  <!-- extende o template -->
 
 
 <!--section('titulo','Gatos:') --> <!-- Para pequenas sections como titulos e subtitulos pode se usar essa estrutura, 
