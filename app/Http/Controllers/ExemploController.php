@@ -10,4 +10,7 @@ class ExemploController extends Controller
 
    	return view('welcome');
    }
+   public function recebeParametro($nomeDoParametro){
+   		dd($nomeDoParametro);
+   }
 }
