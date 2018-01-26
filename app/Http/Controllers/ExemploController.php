@@ -20,6 +20,7 @@ class ExemploController extends Controller
    	return view('exemplos.postExample');
    }
 
+
     public function add(Request $request)
     {
     	$nome=$request->input('firstname');
@@ -28,6 +29,15 @@ class ExemploController extends Controller
         
     	//return view('postExample');
     }
+
+
+
+
+
+
+
+
+
    public function blog(){
    
    	return view('exemplos.blogPage');
